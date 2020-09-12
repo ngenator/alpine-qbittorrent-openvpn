@@ -4,7 +4,7 @@ ARCH="$(uname -m)"
 echo "building for ${ARCH}"
 
 QBT_VERSION=4.2.5
-QBT_RELEASE=r2
+QBT_RELEASE=r3
 
 if [ "${ARCH}" = "x86_64" ]; then
     S6_ARCH=amd64
